@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+hr {
+    margin: 0;
+    color: white;
+    background-color: currentcolor;
+    border: 2px;
+    opacity: 1;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 2% 7% 6%;
+    padding-top: 15px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+.button-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+}
+
+.download-button {
+    margin: 5% 3% 6% 0;
+}
+
+.title-image {
+    width: 20%;
+    margin-right: auto;
+    left: 65%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+/* Features Image */
+
+#features {
+    padding: 7% 13%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/*Testimonial Section*/
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Press Section*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 40px 20px 30px;
+}
+
+.carousel-control-prev {
+    left: -15%;
+}
+
+.carousel-control-next {
+    right: -15%;
+}
+
+/*Pricing Section*/
+
+#pricing {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.pricing-cards {
+    padding: 3% 2%;
+}
