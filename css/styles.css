@@ -152,3 +152,40 @@ hr {
 .pricing-cards {
     padding: 3% 2%;
 }
+
+/*CTA Section*/
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 992px) {
+
+#title {
+    text-align: center;
+}
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
